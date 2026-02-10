@@ -1,105 +1,44 @@
-Smart Helmet – Major Project
+Smart Helmet – Major Project (App Prototype)
 Overview
 
-The Smart Helmet is an intelligent safety system designed to improve rider safety using embedded hardware, computer vision, and a connected mobile/web application. The system integrates real-time monitoring, navigation assistance, and emergency response features into a single smart wearable solution.
+This repository currently contains the application prototype for the Smart Helmet major project. The application is designed to serve as the interface between the rider and the smart helmet hardware system.
 
-This project aims to reduce road accidents caused by rider fatigue, delayed emergency response, and lack of situational awareness by combining IoT, machine learning, and mobile technologies.
+The final system aims to improve rider safety through navigation assistance, drowsiness detection, accident detection, and emergency alert features. This repository focuses on the frontend application used for visualization and interaction.
 
-Features
+Current Features
 
-🪖 Drowsiness Detection
+Navigation UI prototype
 
-Uses image processing / ML techniques to detect rider fatigue
+Smart helmet dashboard interface
 
-Alerts rider in real time
+HUD navigation simulation
 
-🧭 HUD Navigation Display
+Mobile-friendly layout
 
-Navigation instructions displayed on helmet-mounted LCD/HUD
-
-Designed to reduce distraction while riding
-
-🚨 Accident & Collision Detection
-
-Detects sudden impact or fall
-
-Automatically triggers emergency alert
-
-📍 Emergency SOS System
-
-Sends location data to emergency contacts
-
-Helps in faster response during accidents
-
-🔐 Helmet Detection Based Ignition
-
-Vehicle starts only when helmet is detected nearby
-
-📱 Companion App / Web Dashboard
-
-Displays navigation data
-
-Monitoring and system control
-
-Prototype interface built using React
-
-System Architecture
-
-The system consists of three main components:
-
-Helmet Hardware Module
-
-ESP32 Microcontroller
-
-GPS Module
-
-Sensors for motion and impact detection
-
-Camera module for drowsiness detection
-
-HUD/LCD display
-
-Mobile/Web Application
-
-Built using React
-
-Displays navigation and system status
-
-Future integration with hardware data streams
-
-Communication Layer
-
-Bluetooth / WiFi communication between ESP32 and application
-
-Real-time data transfer
+Designed for future hardware data integration
 
 Tech Stack
-Hardware
 
-ESP32
-
-GPS Module
-
-Accelerometer / Gyroscope Sensors
-
-HUD / LCD Display
-
-Software
-
-React (Frontend)
+React
 
 JavaScript / TypeScript
 
-Arduino Framework (ESP32)
+Tailwind CSS
 
-Embedded C/C++
+Vite / React Build Tools
 
-Tools
+Project Purpose
 
-Git & GitHub
+This application will later connect with:
 
-Figma (UI Design)
+ESP32-based helmet hardware
 
-VS Code
+GPS module for navigation
 
-Arduino IDE
+Sensor data for accident detection
+
+Drowsiness detection system
+
+Emergency SOS alert system
+
+Currently, this repository represents the software interface prototype of the complete Smart Helmet system.
